@@ -1,20 +1,22 @@
+
 .container {
     width: 1000px;
-    background: burlywood;
+    background: rgb(202, 167, 121);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0 0, 0, 0.5);
+    margin: 10px;
 }
 
-header{
+header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-h1{
+h1 {
     color: blueviolet;
 }
 
-.content{
+.content {
     display: flex;
     gap: 40px;
 }
@@ -25,7 +27,19 @@ h1{
     margin-bottom: 50px;
 }
 
-ul{
+ul {
     list-style-type: square;
     padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
 }
